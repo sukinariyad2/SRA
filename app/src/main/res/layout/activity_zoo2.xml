@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".zoo2">
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/ass" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حديقة حيوانات بغداد هي حديقة حيوانات تقع في حديقة الزوراء وسط بغداد وقد اعتبرت حديقة الزوراء من أكبر وأقدم حدائق الحيوانات في الشرق الأوسط. حيث تبلغ مساحتها 810 كيلومتر وقد كانت حديقة الحيوانات موجودة في منطقة قريبة من موقع حديقة الزوراء الحالية، لكن عند تأسيس حديقة الزوراء تم نقل موقع الحديقة إلى نطاق حديقة الزوراء عام 1971. تعرضت الحديقة إلى ضرر كبير خلال المعارك التي سبقت احتلال العراق عام 2003، وما تبعها من عمليات نهب وسرقة. ثم أجريت عليها أعمال الصيانة والترميم في الأعوام التالية."
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

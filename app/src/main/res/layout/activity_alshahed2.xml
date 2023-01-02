@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sha">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/shahed" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="صب الشهيد نصب تذكاري صممه النحات العراقي إسماعيل فتاح الترك عام 1983 ويقع في العاصمة العراقية بغداد في جانب الرصافة من بغداد. بني هذا النصب تخليدا لذكرى الجنود العراقيين الذين قتلوا في الحرب العراقية الإيرانية. ومع ذلك، يعتبره العراقيون اليوم بشكل عام إحياءً لذكرى جميع شهداء العراق."
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="هذا النصب هو واحد من ثلاثة نُصب بنيت لتذكر آلام العراق ومعاناته نتيجة الحرب التي استمرت ثماني سنوات. أول هذه الهياكل كان النصب التذكاري للجندي المجهول (1982)؛ تلاه نصب الشهيد (1983) وأخيراً قوس النصر (1989).  يعتبر نصب الشهيد من أبرز المعالم المعمارية في بغداد. وهو من تصميم المهندس المعماري العراقي سامان أسعد كمال والقبة من تصميم الفنان التشكيلي العراقي إسماعيل فتاح الترك. ان جمالية هذا النصب تتمثل في الخداع البصري لهاتين القبتين حيث يرى الشخص القادم من بداية الشارع ان القبتين تبدوان كقبة واحدة مغلقة وكلما اقتربنا أكثر تبدأ بالانشطار إلى نصفين تدريجيا إيذانا بخروج شيء وهو العلم العراقي الذي يرتفع إلى الأعلى. تقع القبتين على منصة دائرية قطرها 190 مترا واسفلها يوجد متحف ويبلغ ارتفاع القبتين 40 مترا ويحتل رقعه فسيحه مساحتها حوالي 42 هكتارا وهذا المعلم بأكمله يرقد وسط بحيرة صناعيه واسعه. بلغت كلفة بناء نصب الشهيد حوالي 52 مليون دينار عراقي (45 الف دولار أمريكي) ومدة العمل بلغت 600 يوم."
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".alnsr2">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="283dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/alnsr" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="قوس النصر معلم سياحي في ساحة الاحتفالات الكبرى في مدينة بغداد، ولقد تم تنفيذ نصب قوس النصر بواسطة شركة (موريس سينغر) البريطانية التي أهتمت بتنفيذ أعمال البرونز لقبضتي وساعدي كل من النصبين المتقابلين، بالإضافة إلى شركة (هـ هـ ميتال فورم) الألمانية التي عهد إليها تنفيذ وصناعة السيوف من سبيكة الفولاذ، وكان عملها للنصب هدية منها إلى بغداد على خلفية تزويد العراق بإمدادات تقنية وتكنلوجية ساعدت على بناء منظومته للاستخدامات غير السلمية، وأقيم هذا النصب أثناء الحرب العراقية الإيرانية. وأطلق عليه أسم قوس النصر. وهو عبارة عن سيفين ضخمين، يرسمان في الفضاء قوسا شاسعا، وتمسكهما يدان قويتان، وقيل أن اليدين كانتا نموذجا ليدي صدام حسين، وتحت السيفين وضعت خمسة آلاف خوذة لجنود إيرانيين، وهي خوذات حقيقية جمعت من ساحات المعارك التي دارت بين البلدين في فترة الحرب العراقية الإيرانية، وقد اشترط صدام على جامعيها أن تكون تلك الخوذ قد ثقبها رصاص الحرب، وصمم النصب الفنان خالد الرحال، في فورة الحماس للسلطة وعطاياها، والنصب يوحي بالنصر، في ذات الوقت الذي يوحي بالقوة.  ولقد كانت الساحة الواسعة تحت السيفين مكانا للاستعراضات العسكرية والمسيرات الشعبية التي كانت تقوم في عهد صدام حسين. يجدر الأشارة إلى أن الحكومة العراقية الجديدة قد حاولت إزالة النصب التذكاري عام 2008 لكن السفير الأمريكي في العراق منع قيام ذلك لأن النصب قد كلف ميزانية العراق مبالغ مالية باهظة ويمثل حقبة من تاريخ العراق. ولقد تم ترميم النصب عام 2011"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
